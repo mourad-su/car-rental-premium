@@ -1,0 +1,21 @@
+# Dependencies
+node_modules/
+.vite/
+
+# Logs
+logs
+*.log
+
+# Editor directories and files
+.vscode/
+.idea/
+.DS_Store
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.swp
+
+# Build output (اذا كان موجوداً)
+dist/
+dist-ssr/
