@@ -19,11 +19,11 @@ export function Footer({ t }) {
             {t?.footerText || "Flotte d'exception, service sur mesure et transparence totale pour tous vos trajets."}
           </p>
           
-          {/* الأيقونات الإجتماعية بألوانها الرسمية الثابتة */}
+          {/* الأيقونات الإجتماعية بالروابط الجديدة المعدلة */}
           <div className="flex items-center gap-3 mt-2">
             {/* Facebook */}
             <a 
-              href="https://facebook.com" 
+              href="https://www.facebook.com/profile.php?id=61591121343242" 
               target="_blank" 
               rel="noreferrer" 
               className="grid h-9 w-9 place-items-center rounded-xl bg-[#1877F2] text-white shadow-sm hover:opacity-85 hover:scale-105 transition duration-300"
@@ -34,7 +34,7 @@ export function Footer({ t }) {
             
             {/* Instagram */}
             <a 
-              href="https://instagram.com" 
+              href="https://www.instagram.com/dream_car_luxee?igsh=MTRncGluZjJiYXBnNQ==" 
               target="_blank" 
               rel="noreferrer" 
               className="grid h-9 w-9 place-items-center rounded-xl bg-gradient-to-tr from-[#f9ce34] via-[#ee2a7b] to-[#6228d7] text-white shadow-sm hover:opacity-85 hover:scale-105 transition duration-300"
@@ -45,7 +45,7 @@ export function Footer({ t }) {
 
             {/* TikTok */}
             <a 
-              href="https://www.tiktok.com/@404mi__nd" 
+              href="https://www.tiktok.com/@dreamcarluxee?_r=1&_t=ZS-97OlkwGtWZJ" 
               target="_blank" 
               rel="noreferrer" 
               className="grid h-9 w-9 place-items-center rounded-xl bg-[#000000] text-white shadow-sm hover:opacity-85 hover:scale-105 transition duration-300"
@@ -99,11 +99,12 @@ export function Footer({ t }) {
               </a>
             </li>
             <li>
-              <a href="mailto:dreamcar@gmail.com" className="flex items-center gap-3 hover:text-[#A17B00] transition group">
+              {/* التعديل هنا: الـ Gmail الجديد المحترف */}
+              <a href="mailto:dreamcarluxee@gmail.com" className="flex items-center gap-3 hover:text-[#A17B00] transition group">
                 <span className="grid h-8 w-8 place-items-center rounded-lg bg-white border border-slate-200 text-[#C9A227] group-hover:bg-[#C9A227] group-hover:text-white group-hover:border-[#C9A227] transition duration-300 shadow-sm">
                   <FaEnvelope className="h-4 w-4" />
                 </span>
-                <span className="break-all">dreamcar@gmail.com</span>
+                <span className="break-all">dreamcarluxee@gmail.com</span>
               </a>
             </li>
           </ul>

@@ -7,7 +7,8 @@ const actions = [
   
   { label: "Phone", icon: FaPhone, href: "tel:+212600073536" }, 
   
-  { label: "Gmail", icon: FaEnvelope, href: "mailto:dreamcar@gmail.com" },
+  // التعديل هنا بالإيميل الجديد المحترف
+  { label: "Gmail", icon: FaEnvelope, href: "mailto:dreamcarluxee@gmail.com" },
 ];
 
 export function FloatingActions() {

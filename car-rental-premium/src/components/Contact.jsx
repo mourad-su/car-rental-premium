@@ -4,7 +4,7 @@ import { SectionHeader, fadeUp } from "./SectionHeader";
 
 const contactItems = [
   { key: "phone", value: "+212 6 00 07 35 36", href: "tel:+212600073536", icon: FaPhone },
-  { key: "email", value: "dreamcar@gmail.com ", href: "mailto:dreamcar@gmail.com", icon: FaEnvelope },
+  { key: "email", value: "dreamcarluxee@gmail.com", href: "mailto:dreamcarluxee@gmail.com", icon: FaEnvelope },
   { key: "whatsapp", value: "+212 6 00 07 35 36", href: "https://wa.me/212600073536", icon: FaWhatsapp },
 ];
 
