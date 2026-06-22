@@ -66,7 +66,7 @@ function VehicleCard({ vehicle, lang, t, index }) {
           href={whatsappUrl}
           target="_blank"
           rel="noopener noreferrer"
-          className="mt-6 danger flex items-center justify-center gap-2 w-full bg-[#ab0b0b] hover:bg-[red] text-white py-3 rounded-xl font-black transition-all shadow-md active:scale-95 text-center"
+          className="mt-6 flex items-center justify-center gap-2 w-full bg-[#ff4d4d] hover:bg-[#ff6666] text-white py-3 rounded-xl font-black transition-all shadow-md active:scale-95 text-center"
         >
           <FaWhatsapp className="text-xl" />
           <span>{isAr ? "احجز الآن عبر واتساب" : "Réserver sur WhatsApp"}</span>
